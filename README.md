@@ -54,8 +54,7 @@ Unix Bash style shell for FreeRTOS, providing Command Line Interface(CLI) for mi
 void app_main(void)
 {
   mount_spiffs();
-	xTaskCreate(&shell_task, "shell_task", 8192, NULL, 5, NULL);
-
+  xTaskCreate(&shell_task, "shell_task", 8192, NULL, 5, NULL);
 }
 
 ```
