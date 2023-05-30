@@ -25,9 +25,9 @@ Unix Bash style shell for FreeRTOS, providing Command Line Interface(CLI) for mi
 `examples/` implements a `hello world` example for the processor variety listed below:
 | Architecture             | Processor            | Example Location                             | Board                             |
 | :---                     | :--                  | :---                                         | :-                                |
-| Xtensa® 32 bit           | ESP32-D0WD           | examples/emulation/esp32-d0wd                | ESP32 DevKit                      |
-| RISC-V 32 bit            | ESP32-C3             | examples/emulation/esp32c3                   | ESP32-C3-DevKitC-02               |
-| RISC 32 bit              | MIPS32 M4K core      | examples/emulation/mips32mk4pic3             | PIC32MX Starter Kit* (HOLD)       |
+| Xtensa® 32 bit           | ESP32-D0WD           | examples/board/esp32-d0wd                    | ESP32 DevKit                      |
+| RISC-V 32 bit            | ESP32-C3             | examples/board/esp32c3                       | ESP32-C3-DevKitC-02               |
+| RISC 32 bit              | MIPS32 M4K core      | examples/board/mips32mk4pic3                 | PIC32MX Starter Kit* (HOLD)       |
 
 
 # Quick Implement
