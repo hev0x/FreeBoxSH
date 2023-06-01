@@ -94,7 +94,7 @@ set <GPIO> (HOLD)
 
 - To be able to run all the example and create your own project follow the documentation in [docs/](docs/index.md#table-of-contents).
 - It also provides details about the internal workings of shell and how to setup your own project.
-- 
+
 
 ## Table of contents
 | Topic| Description |
