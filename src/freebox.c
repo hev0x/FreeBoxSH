@@ -127,7 +127,6 @@ void ls_cmd(char* path) {
         printf("-> Error opening directory\r\n");
         return;
     }
-	
 	// list the files and directories
 	struct dirent *direntry;
 	while ((direntry = readdir(dir)) != NULL) {
@@ -237,8 +236,6 @@ void cd_cmd(char* path) {
 	
 	closedir(dir);
 }
-
-
 
 /**************************************************************************************************************/
 void parse_cmd(char* command) {
